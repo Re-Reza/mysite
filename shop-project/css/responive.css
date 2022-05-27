@@ -1,0 +1,121 @@
+@media only screen and (max-width:768px){ /*-------tablet mode-------*/
+    #img-slider{
+        width: 100%;
+        /* margin-bottom: .8em; */
+    } 
+    .change-slider-icon{
+        width: 30%;
+    }
+    .navigation .nav-left, .head-section .head-right .search-box {
+        display: none;
+    }
+    .head-section{
+        position: relative;
+        top: 2rem;
+    }
+    .alternative-searchbox{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .navigation .navigation-logo-time{
+        display: block;
+    }
+    .navigation .nav-right{
+        flex-direction: column;
+        width: 100%;
+    }
+    .navigation .nav-right li.logo{
+        /* .logo{ why it doesn't work? */ 
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid #c36a75 ;
+    }
+    .floating-text-container{
+        display:none;
+    }
+    .product-section-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product-section-content article{
+        width: 30%;
+        margin-bottom: 1em;
+    }
+    .comments-part{
+        flex-direction: column;
+        height: 1000px;
+        height: 1450px;
+        justify-content: flex-start;
+    }
+    .comments-part .comments-part-img{
+        width: 100%;
+        padding: .7em;
+    }
+    .comments-part-img i.fa{
+        margin-bottom: .2em;
+    }
+    .comments-part-boxes{
+        width: 100%;
+        justify-content: center;
+    }
+    .comment-box{
+        width: calc(100% - 2em);
+        margin: 1em 0 0 0;
+    }
+    .comments-part-img{
+        background-position-x: 30%;
+    }
+    #footer .footer-general-style{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 1.5em;
+    }
+    #footer{
+        width: 100%;
+        flex-direction: column;
+        height: 675px;
+        padding:1em 1em 0 1em;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .special-sugestion{
+        margin-top:2.8em;
+    }
+    #log-in-page{
+        width: 70%;
+        right: 18%;
+    }
+    .log-in-page-info-input{
+        width: 84%;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .product-section-content article{
+        width: 49%;
+    }
+    .product-section-content article img{
+        width: 150px;
+    }
+    .comments-part-img-icon-container{
+        font-size: 10px;
+    }
+    #log-in-page{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:376px){
+    .head-right .shopping-drop-down-menu, .head-left a.cart{
+        font-size: .9em;
+    }
+    .search-box .form-group input{
+        width: 230px;
+    }
+    #log-in-page{
+        font-size: 12px;
+    }
+    .log-in-page-info input::placeholder{
+        font-size: .8em;
+    }
+}

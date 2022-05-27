@@ -1,0 +1,89 @@
+@keyframes rotateMagnifier {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes whenHoverd {
+    0%{
+        width: 100px;
+        background-color: #f3f3f3;
+    }
+    100%{
+        width: 300px;
+        background-color: #a5a5a5;
+    } 
+}
+
+@keyframes logoShadow {
+    from{
+        width: 184px;
+        height: 0;
+    }
+
+    to{
+        width: 184px;
+        height: 48px;
+        background-color: red;
+        opacity: .5;
+    }
+}
+@keyframes moveRight{
+    0%{
+        left: 300px;
+    }   
+    100%{
+        left: 0px;
+    }
+}
+@keyframes moveLeft{
+    0%{
+        right: 300px;
+    }   
+    100%{
+        right: 0px;
+    }
+}
+@keyframes shakeElement{
+    0%{
+        transform: translate(0px,-8px);
+    }
+    100%{
+        transform: translate(0px, 8px);
+    }
+}
+@keyframes showMenu {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 114px;
+    }
+}
+@keyframes iconRotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
+@keyframes hideMenu {
+    from{
+        height: 114px;
+    }
+    to{
+        height: 0px;
+    }
+}
+@keyframes showLogInPage {
+    from{
+        top:-12%;
+    }
+    to{
+        top: 5%;
+    }
+}
